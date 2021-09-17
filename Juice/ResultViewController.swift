@@ -26,14 +26,14 @@ class ResultViewController: UIViewController {
         KeychainItem.deleteUserIdentifierFromKeychain()
         
         // Clear the user interface.
-        userIdentifierLabel.text = ""
+        userIdentifierLabel.text = "AidyBao"
         givenNameLabel.text = ""
         familyNameLabel.text = ""
         emailLabel.text = ""
         
         // Display the login controller again.
         DispatchQueue.main.async {
-            self.showLoginViewController()
+            //self.showLoginViewController()
         }
     }
 }
